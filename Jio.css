@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('Fam.jpg');
+    background-position: center;
+}
+h1 {
+    position: absolute;
+    bottom: 30%;
+    left: 18%;
+    transform: translateX(-50%);
+    font-size: 70px;
+    color: rgba(67, 5, 5, 0.812);
+    background-color: rgb(255, 228, 196,0.3);
+    width: 35%;
+    height: 23%;
+
+}
+h1:hover {
+    background-color: bisque;
+}
+.head {
+    font-size: 80px;
+    text-align: center;
+    margin-left: 150px;
+}
+.nav {
+    background-color: rgba(188,149,83,0.6);
+    list-style-type: none;
+}
+li a {
+    float: right;
+    display: block;
+    text-decoration: none;
+    text-align:center;
+    font-size: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+    font-stretch: expanded;
+    border-right: 2px solid white;
+    padding:20px;
+    color: rgb(125, 21, 21);
+}
+li a:hover{
+    background-color:hsla(0, 15%, 95%, 0.9);
+    color: black;
+}
+h2 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color: darksalmon;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    height: 200px;
+    padding: 50px 50px;
+}
+h3 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color: darksalmon;
+    border-radius: 15px;
+    padding: 50px 50px;
+    margin-left: 10px;
+    height: 200px;
+}
+h2:hover {
+    background-color: hsl(15, 72%, 70%,0.7);
+}
+h3:hover {
+    background-color: hsl(15, 72%, 70%,0.7);
+}
+.offers {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+}
+.offer1,.offer2,.offer3,.offer4,.offer5,.offer6 {
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin: 15px 300px;
+    background-color:rgba(121, 111, 111,0.3);
+}
+h4 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color:cornflowerblue;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 20px;
+    height: 200px;
+    padding: 50px 50px;
+}
+h5 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    padding: 50px 50px;
+    margin-left: 10px;
+    height: 200px;
+}
+h4:hover {
+    background-color: rgb(100, 149, 237,0.7);
+}
+h5:hover {
+    background-color: rgb(100, 149, 237,0.7);
+}
+h6 {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color: mediumorchid;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 20px;
+    height: 200px;
+    padding: 50px 50px;
+}
+h6:hover {
+    background-color: rgb(186, 85, 211,0.7);
+}
+.sub {
+    display: inline-flex;
+    text-align: center;
+    font-size: 60px;
+    background-color:mediumorchid;
+    border-radius: 15px;
+    padding: 50px 50px;
+    margin-left: 10px;
+    height: 200px;
+}
+.sub:hover {
+    background-color: rgb(186, 85, 211,0.7);
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.sim,.act,.enjoy{
+    border: 1px antiquewhite solid;
+    width: 30%;
+    height: 650px;
+    margin: 20px;
+    border-bottom: 3px solid antiquewhite;
+    text-align: center;
+    background-color: antiquewhite;
+}
+img{
+    width: 100%;
+    height: 400px;
+}
+.s1,.s2,.s3{
+    font-size: 40px;
+}
+button{
+    font-size: 20px;
+    text-align: center;
+}
+footer {
+    background-color: hsl(210, 14%, 53%,0.4);
+    height: 50px;
+    text-align: end;
+}
+.copy {
+    font-size: 30px;  
+}
+
+
